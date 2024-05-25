@@ -6,7 +6,7 @@
 <strong>Description: </strong> & <b>Requirements: </b><br>
 
 <b>1: </b> Create a Register component:Must have first name, last name, email, password and confirm password<br>
-<b>2: </b> Create a Login component: Must have email and password<br>
+<b>2: </b> Create a Login component: Must have email and password<br><br>
 Both components must have validation.<br>
 Style the components <br>
 You can use any form we have gone over in class and any validation we have gone over in class. <br> <br>
