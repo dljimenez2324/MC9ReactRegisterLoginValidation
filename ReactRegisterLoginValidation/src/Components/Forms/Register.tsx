@@ -3,6 +3,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { FieldValues, useForm } from "react-hook-form";
 import {z} from "zod";
 
+// NOW I NEED TO CREATE THE HELPER FUNCTION TO HANDLE THE ONSUBMIT FROM THE FORM
+// THEN i WILL NEED TO SET UP HOW THE RETURN WILL LOOK WITH ITS INPUTS AND DISPLAY FIELDS
 
 const Register = () => {
 
