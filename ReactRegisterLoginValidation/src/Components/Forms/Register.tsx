@@ -39,9 +39,9 @@ const Register = () => {
 
   return (
     <>
-        <div className="container m-5 p-5">
+        <div className="container mainCont">
             <div className="row">
-                <div className="col mb-4">
+                <div className="col my-4">
                     <h1 className="title text-center">Register New Account</h1>
                 </div>
             </div>

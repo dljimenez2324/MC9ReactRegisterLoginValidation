@@ -6,19 +6,28 @@ body {
   font-weight: 400;
   font-style: normal;
 
+  background-image: url('./assets/Media/3376284.jpg');
   background-color: darkslategrey;
   color: whitesmoke;
+}
+
+.mainCont {
+  transform: translate(0%,30%);
+  background-color: rgba(46, 153, 186 , 0.8);
+  border-radius: 5%;
+  max-width: 50%;
 }
 
 .myContainer {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 2rem;
 }
 
 .mySpacing {
   margin-top: 1rem;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   margin-bottom: 1rem;
 }
