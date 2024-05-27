@@ -7,11 +7,11 @@
 
 <b>1: </b> Create a Register component:Must have first name, last name, email, password and confirm password<br>
 <b>2: </b> Create a Login component: Must have email and password<br><br>
-Both components must have validation.<br>
-Style the components <br>
-You can use any form we have gone over in class and any validation we have gone over in class. <br> <br>
+* Both components must have validation.<br>
+* Style the components <br>
+* You can use any form we have gone over in class and any validation we have gone over in class. <br> <br>
 <br><br>
-<b>GitHub: </b>  <br><br>
+<b>GitHub: </b> https://github.com/dljimenez2324/MC9ReactRegisterLoginValidation <br><br>
 <br>
 
 
