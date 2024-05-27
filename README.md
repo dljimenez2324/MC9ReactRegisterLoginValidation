@@ -16,8 +16,9 @@ You can use any form we have gone over in class and any validation we have gone 
 
 
 <bold>Notes:<bold/><br>
-* I noticed that I have to use htmlFor  instead of for with labels when creating forms... see  https://stackoverflow.com/questions/22752116/react-ignores-for-attribute-of-the-label-element
-* 
+*   I noticed that I have to use htmlFor  instead of for with labels when creating forms... see below  https://stackoverflow.com/questions/22752116/react-ignores-for-attribute-of-the-label-element
+*   Example for autocomplete and how to create a form... see below  https://web.dev/learn/forms/autofill/?utm_source=devtools#how-does-autofill-work
+*   
 
 <b>Peer Reviewed by: </b> NAME HERE <br>
 <b>Comments: </b>   COMMENTS HERE
