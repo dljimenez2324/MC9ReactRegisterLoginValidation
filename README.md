@@ -15,5 +15,9 @@ You can use any form we have gone over in class and any validation we have gone 
 <br>
 
 
+<bold>Notes:<bold/><br>
+* I noticed that I have to use htmlFor  instead of for with labels when creating forms... see  https://stackoverflow.com/questions/22752116/react-ignores-for-attribute-of-the-label-element
+* 
+
 <b>Peer Reviewed by: </b> NAME HERE <br>
 <b>Comments: </b>   COMMENTS HERE
