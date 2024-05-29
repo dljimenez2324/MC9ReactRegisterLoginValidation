@@ -79,13 +79,13 @@ const Register = () => {
                             {/* Password sections */}
                             <label htmlFor="password" className="form-label" >Password</label>
                             <input {...register('password')} id="password" type="password" className="form-control"/>
-                            {errors.password && <p>{errors.password.message}</p>}
+                            {errors.password && <p className="text-danger">{errors.password.message}</p>}
                         </div>
                         <div className="col-6">
                             {/* Password sections */}
                             <label htmlFor="password2" className="form-label" >Confirm Password</label>
                             <input {...register('password2')} id="password2" type="password" className="form-control"/>
-                            {errors.password2 && <p>{errors.password2.message}</p>}
+                            {errors.password2 && <p className="text-danger">{errors.password2.message}</p>}
                         </div>
                     </div>
                     <div className="row mySpacing">
