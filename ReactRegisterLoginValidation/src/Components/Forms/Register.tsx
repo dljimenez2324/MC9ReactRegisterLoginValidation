@@ -13,8 +13,8 @@ const schema = z
     firstName: z.string().toLowerCase().trim().min(2, {message: "First name must be at least 2 characters..."}),
     lastName: z.string().toLowerCase().trim().min(2, {message: "Last name must be at least 2 characters..."}),
     email: z.string().trim().toLowerCase().email(),
-    password: z.string().trim().min(6),
-    password2: z.string().trim().min(6)
+    password: z.string().trim().min(6, {message: "Password must contain at least 6 characters"}),
+    password2: z.string().trim().min(6, {message: "Password must contain at least 6 characters"})
 })
 .refine((data) => data.password === data.password2, { // checking for if passwords do not match
     message: "Passwords do not match",  // shows this message upon passwords not matching
