@@ -28,7 +28,9 @@ type FormData = z.infer<typeof schema>
 const Register = () => {
 
     // in order to see the errors we destructure the formState
-    const {register, handleSubmit, formState:{errors,isValid}} = useForm<FormData>({resolver:zodResolver(schema)});
+
+    // const {register, handleSubmit, formState:{errors, isValid}} = useForm<FormData>({resolver:zodResolver(schema)});
+    const {register, handleSubmit, formState:{errors}} = useForm<FormData>({resolver:zodResolver(schema)});
 
     console.log(errors);
 
