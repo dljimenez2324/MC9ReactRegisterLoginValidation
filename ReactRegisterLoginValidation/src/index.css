@@ -13,8 +13,9 @@ body {
 
 .mainCont {
   transform: translate(0%,30%);
-  background-color: rgba(46, 153, 186 , 0.8);
+  background-color: rgba(65, 127, 146, 0.8);
   border-radius: 5%;
+  border: 1px solid whitesmoke;
   max-width: 50%;
 }
 
