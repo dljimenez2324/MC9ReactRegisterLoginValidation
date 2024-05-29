@@ -5,8 +5,10 @@ import Register from "./Components/Forms/Register"
 
 
 const App = () => {
+  
   return (
     <>
+      
       <Register/>
       {/* <Login/> */}
     </>
