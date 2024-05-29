@@ -12,7 +12,7 @@ const schema = z
 .object({
     firstName: z.string().toLowerCase().trim().min(2, {message: "First name must be at least 2 characters..."}),
     lastName: z.string().toLowerCase().trim().min(2, {message: "Last name must be at least 2 characters..."}),
-    email: z.string().trim().email(),
+    email: z.string().trim().toLowerCase().email(),
     password: z.string().trim().min(6),
     password2: z.string().trim().min(6)
 })
@@ -45,6 +45,7 @@ const Register = () => {
                     <h1 className="title text-center">Register New Account</h1>
                 </div>
             </div>
+            {/* originally had this below   onSubmit={handleSubmit(onHelpSubmit)}   */}
             <form onSubmit={handleSubmit(onHelpSubmit)}>
                 <div className="myContainer">
 
@@ -67,7 +68,7 @@ const Register = () => {
                         <div className="col-6">
                             {/* Email section */}
                             <label htmlFor="email" className="form-label">E-mail</label>
-                            <input {...register('email')} id="email" type="email" className="form-control"/>
+                            <input {...register('email')} id="email" type="email" autoComplete="email" className="form-control"/>
                             {errors.email && <p className="text-danger">{errors.email.message}</p>}
                         </div>
                     </div>
@@ -76,7 +77,19 @@ const Register = () => {
                             {/* Password sections */}
                             <label htmlFor="password" className="form-label" >Password</label>
                             <input {...register('password')} id="password" type="password" className="form-control"/>
-                            
+                            {errors.password && <p>{errors.password.message}</p>}
+                        </div>
+                        <div className="col-6">
+                            {/* Password sections */}
+                            <label htmlFor="password2" className="form-label" >Confirm Password</label>
+                            <input {...register('password2')} id="password2" type="password" className="form-control"/>
+                            {errors.password2 && <p>{errors.password2.message}</p>}
+                        </div>
+                    </div>
+                    <div className="row mySpacing">
+                        <div className="col-2">
+                            {/* add back to button after complete editing     disabled={!isValid}        */}
+                            <button  className="btn btn-primary" >Submit</button>
                         </div>
                     </div>
                 </div>
