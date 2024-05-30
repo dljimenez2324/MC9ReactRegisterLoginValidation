@@ -11,10 +11,13 @@ body {
   color: whitesmoke;
 }
 
+/* For REGISTER COMPONENT */
 .mainCont {
-  transform: translate(0%,30%);
+  position: absolute;
+  top: 20%;
+  left: 25%;
   background-color: rgba(65, 127, 146, 0.8);
-  border-radius: 5%;
+  border-radius: 20px;
   border: 1px solid whitesmoke;
   max-width: 50%;
 }
@@ -23,12 +26,39 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .mySpacing {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
+}
+
+/* For LOGIN COMPONENT */
+.contLogin {
+  transform: translate(0%, 40%);
+  background-color: rgba(65, 127, 146, 0.8);
+  border-radius: 20px;
+  border: 1px solid whitesmoke;
+  max-width: 40%;
+  padding:2rem;
+}
+
+a {
+  color: rgb(23, 21, 141);
+}
+
+.tagStyle {
+  margin-top: .5rem; 
+  margin-left: 1.6rem;
+}
+
+.text-danger {
+  color: hwb(0 62% 5%) !important;
+}
+
+.btn {
+  border-color: whitesmoke;
 }

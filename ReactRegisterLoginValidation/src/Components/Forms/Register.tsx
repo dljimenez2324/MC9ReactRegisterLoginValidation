@@ -23,7 +23,7 @@ const schema = z
 
 // our interface with zod to hold our data
 // Also notice this interface is outside our function
-type FormData = z.infer<typeof schema>
+type FormData = z.infer<typeof schema>;
 
 const Register = () => {
 
@@ -37,10 +37,12 @@ const Register = () => {
     // make a helper function that we place into the onSubmit of the form tag to see our errors in the console log
     const onHelpSubmit = (data:FieldValues) => {
         console.log(data);
+
     }
 
   return (
     <>
+        
         <div className="container mainCont">
             <div className="row">
                 <div className="col my-4">
@@ -93,7 +95,9 @@ const Register = () => {
                             {/* add back to button after complete editing     disabled={!isValid}        */}
                             <button  className="btn btn-primary" >Submit</button>
                         </div>
+                        <a href="https://youtu.be/xvFZjo5PgG0?si=BQKqdNQu_l9KetuS" target="_blank" className="mt-1">Forgot Password</a>
                     </div>
+                    
                 </div>
 
             </form>
