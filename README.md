@@ -20,5 +20,5 @@
 *   Example for autocomplete and how to create a form... see below  https://web.dev/learn/forms/autofill/?utm_source=devtools#how-does-autofill-work
 *   
 
-<b>Peer Reviewed by: </b> NAME HERE <br>
-<b>Comments: </b>   COMMENTS HERE
+<b>Peer Reviewed by: </b> Aaron Perez <br>
+<b>Comments: </b>  Validations work for all fields on both forms, Register and login form, Nice sleek styling overall. Great Job!!!!
