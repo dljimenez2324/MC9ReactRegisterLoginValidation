@@ -5,7 +5,7 @@ import {z} from "zod";
 
 const schema = z
 .object({
-  email: z.string().toLowerCase().trim(),
+  email: z.string().toLowerCase().trim().email(),
   password: z.string().trim().min(6, {message: "Password must contain at least 6 characters"})  
 })
 
